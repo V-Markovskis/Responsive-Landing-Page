@@ -146,3 +146,48 @@ li {
   background: #fff;
   padding: 25px;
 }
+
+
+/* PAGE THREE */
+.container-page-three__box1,
+.container-page-three__box2,
+.container-page-three__box3,
+.container-page-three__paragraph {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 18px;
+  margin-bottom: 10px;
+}
+
+.container-page-three__paragraph {
+  grid-column: 1 / 4;
+  padding-left: 50px;
+  align-items: end;
+}
+
+
+.box1__image-container, .box2__image-container, .box3__image-container {
+  justify-self: end;
+  align-self: center;
+}
+
+.gray-line {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  margin-bottom: 30px;
+}
+
+/* PAGE FOUR */
+.container-page-four__box1 {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px; 
+}
+
+.copyright-text {
+  display: flex;
+  justify-content: center;
+  padding-top: 26px;
+  padding-bottom: 50px;
+}
