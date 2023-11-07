@@ -40,9 +40,6 @@ li {
   list-style: none;
 }
 
-
-
-
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -74,9 +71,78 @@ li {
   font-weight: 500;
   color: #FFF;
   padding: 13px 20px;
+  margin-bottom: 90px;
 }
 
 .container_box2 {
   align-self: center;
   justify-self: center;
+}
+
+/* PAGE TWO */
+.container-page-two {
+  display: grid;
+  background-image: url('/assets/images/background.jpg');
+  background-size: cover; //background image scaling
+  background-position: center;
+  background-repeat: no-repeat; //prevent the background image from repeating;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+
+}
+
+.container-page-two__box1 ,.container-page-two__box2 {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  gap: 10px;
+  margin-top: 70px;
+  margin-bottom: 32px;
+}
+
+.container-page-two__box1 {
+  margin-left: 148px;
+}
+
+.container-page-two__box2 {
+  margin-right: 148px;
+}
+
+.recent-posts-container, .box2__button {
+  grid-row: 1;
+}
+
+.recent-posts-container__text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.box2__button {
+  justify-self: end;
+  align-self: center;
+}
+
+.box2__button-fiew-all {
+  padding: 5px;
+}
+
+.recent-posts-container {
+  align-self: center;
+}
+
+.design-container__title,
+.design-container__date,
+.design-container_paragraph {
+  color: #21243D;
+}
+
+.design-container__title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.design-container {
+  border: 1px solid #fff;
+  background: #fff;
+  padding: 25px;
 }
